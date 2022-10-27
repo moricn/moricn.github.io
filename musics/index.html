@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="musics, Hexo">
-    <meta name="description" content="Hexo">
+    <meta name="keywords" content="musics, MoRi">
+    <meta name="description" content="MoRi">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>musics | Hexo</title>
+    <title>musics | MoRi</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -45,8 +45,6 @@
 
 
     
-        <link rel="stylesheet" type="text/css" href="/css/reward.css">
-    
 
 
 
@@ -54,7 +52,7 @@
 
 <meta name="generator" content="Hexo 6.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+<link rel="alternate" href="/atom.xml" title="MoRi" type="application/atom+xml">
 </head>
 
 
@@ -67,7 +65,7 @@
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">Hexo</span>
+                    <span class="logo-span">MoRi</span>
                 </a>
             </div>
             
@@ -169,7 +167,7 @@
           
           <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
           
-          <span>Musics</span>
+          <span>音乐</span>
         </a>
       </li>
       
@@ -178,7 +176,7 @@
           
           <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
           
-          <span>Movies</span>
+          <span>视频</span>
         </a>
       </li>
       
@@ -187,7 +185,7 @@
           
           <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
           
-          <span>Books</span>
+          <span>书籍</span>
         </a>
       </li>
       
@@ -196,7 +194,7 @@
           
           <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
           
-          <span>Galleries</span>
+          <span>相册</span>
         </a>
       </li>
       
@@ -223,7 +221,7 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">Hexo</div>
+        <div class="logo-name">MoRi</div>
         <div class="logo-desc">
             
             Never really desperate, only the lost of the soul.
@@ -327,7 +325,7 @@
 				  
 				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
 			      
-		          <span>Musics</span>
+		          <span>音乐</span>
                   </a>
                 </li>
               
@@ -337,7 +335,7 @@
 				  
 				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
 			      
-		          <span>Movies</span>
+		          <span>视频</span>
                   </a>
                 </li>
               
@@ -347,7 +345,7 @@
 				  
 				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
 			      
-		          <span>Books</span>
+		          <span>书籍</span>
                   </a>
                 </li>
               
@@ -357,7 +355,7 @@
 				  
 				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
 			      
-		          <span>Galleries</span>
+		          <span>相册</span>
                   </a>
                 </li>
               
@@ -454,7 +452,7 @@
         <div class="brand">
             <div class="title center-align">
                 
-                    subtitle
+                记录美好，写下生活
                 
             </div>
 
@@ -501,6 +499,108 @@
             <div class="card-content">
                 <div class="music-player">
                     
+                        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+</style>
+<div class="music-player">
+    
+        <div class="title center-align">
+            <i class="fa fa-music"></i>&nbsp;&nbsp;听听音乐
+        </div>
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="tencent"
+                   type="playlist"
+                   id="8670321507"
+                   fixed='false'
+                   autoplay='true'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   listMaxHeight='525px'
+                   list-folded='false'
+        >
+        </meting-js>
+    </div>
+</div>
+
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+
+
+                        <style>
+                        .bubbles > .particle {
+                            /*初始透明度为0*/
+                            opacity: 0;
+                            position: absolute;
+                            /*初始颜色为荧光色，透明度为0.7*/
+                            background-color: rgba(128,255,0,0.7);
+                            /*使用bubbles动画，持续时间18秒，缓慢进入，无限循环*/
+                            animation: bubbles 18s ease-in infinite;
+                            border-radius: 100%;
+                        }
+                        /*css keyframes 动画*/
+                        @keyframes bubbles {
+                            0% {
+                                opacity: 0;
+                            }
+                            5% {
+                                opacity: 1;
+                                transform: translate(0, -20%);
+                            }
+                            /*这里-8000%表示是气泡的8000%*/
+                            100% {
+                                opacity: 0;
+                                transform: translate(0, -8000%);
+                            }
+                        }
+                        </style>
+                        <!-- 这里让元素宽度100%（和页面等宽） -->
+                        <div style="width: 100%; height: 100%; position: relative; bottom: 0px;" class="particletext bubbles">
+
+
+
+                        </div>
+                        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+                        <script>
+                          function bubbles() {
+                             $.each($(".particletext.bubbles"), function(){
+                                var bubblecount = ($(this).width()/50)*10;
+                                for(var i = 0; i <= bubblecount; i++) {
+                                   var size = ($.rnd(40,80)/10);
+                                   //这里的animation-delay很重要，关系到你的特效是否看上去是连续无断层的，上一步中css是18秒，所以这一步中延迟时间就设置成$.rnd(0,180)/10)
+                                   $(this).append('<span class="particle" style="top:' + $.rnd(20,80) + '%; left:' + $.rnd(0,95) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ($.rnd(0,180)/10) + 's;"></span>');
+                                }
+                             });
+                          }
+                          jQuery.rnd = function(m,n) {
+                              m = parseInt(m);
+                              n = parseInt(n);
+                              return Math.floor( Math.random() * (n - m + 1) ) + m;
+                          }
+                          bubbles();
+                        </script>
+                        
+                    
                 </div>
             </div>
         </div>
@@ -545,7 +645,7 @@
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="tencent"
                    type="playlist"
-                   id="503838841"
+                   id="8670321507"
                    fixed='true'
                    autoplay='false'
                    theme='#42b983'
@@ -785,6 +885,15 @@ $(function () {
 
     
 
+    
+        
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
+            }
+        </script>
     
 
     <!-- 雪花特效 -->
